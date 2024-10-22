@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\EclipseWorks.TaskManagement\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E081DF-D61D-4F26-8AD6-555EC7BF2E23}|EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement.csproj|c:\\users\\pichau\\desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\eclipseworks.taskmanagement\\eclipseworks.taskmanagement\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E1E081DF-D61D-4F26-8AD6-555EC7BF2E23}|EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement.csproj|solutionrelative:eclipseworks.taskmanagement\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -32,8 +37,17 @@
               "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement\\Dockerfile",
+              "RelativeDocumentMoniker": "EclipseWorks.TaskManagement\\Dockerfile",
+              "ToolTip": "C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement\\Dockerfile",
+              "RelativeToolTip": "EclipseWorks.TaskManagement\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-22T21:12:24.025Z",
+              "EditorCaption": ""
             }
           ]
         }

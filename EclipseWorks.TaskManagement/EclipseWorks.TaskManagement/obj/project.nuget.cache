@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WjPe5BS+czY=",
+  "dgSpecHash": "fTqarD7LSjA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement.csproj",
+  "projectFilePath": "C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement\\EW.TaskManagement.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

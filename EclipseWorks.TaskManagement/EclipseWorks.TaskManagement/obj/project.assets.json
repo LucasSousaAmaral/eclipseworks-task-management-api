@@ -521,9 +521,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement.csproj",
-      "projectName": "EclipseWorks.TaskManagement",
-      "projectPath": "C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement.csproj",
+      "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement\\EW.TaskManagement.Presentation.csproj",
+      "projectName": "EW.TaskManagement.Presentation",
+      "projectPath": "C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement\\EW.TaskManagement.Presentation.csproj",
       "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement\\obj\\",
       "projectStyle": "PackageReference",

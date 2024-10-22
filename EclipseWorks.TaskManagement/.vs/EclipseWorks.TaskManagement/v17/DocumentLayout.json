@@ -3,8 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\EclipseWorks.TaskManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1E081DF-D61D-4F26-8AD6-555EC7BF2E23}|EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement.csproj|c:\\users\\pichau\\desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\eclipseworks.taskmanagement\\eclipseworks.taskmanagement\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E1E081DF-D61D-4F26-8AD6-555EC7BF2E23}|EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement.csproj|solutionrelative:eclipseworks.taskmanagement\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,14 +38,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement\\Dockerfile",
-              "RelativeDocumentMoniker": "EclipseWorks.TaskManagement\\Dockerfile",
-              "ToolTip": "C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\EclipseWorks.TaskManagement\\EclipseWorks.TaskManagement\\Dockerfile",
-              "RelativeToolTip": "EclipseWorks.TaskManagement\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\.gitignore",
+              "RelativeDocumentMoniker": "..\\.gitignore",
+              "ToolTip": "C:\\Users\\Pichau\\Desktop\\eclipse-works-task-management\\eclipseworks-task-management-api\\.gitignore",
+              "RelativeToolTip": "..\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-22T21:12:24.025Z",
+              "WhenOpened": "2024-10-22T21:25:43.167Z",
               "EditorCaption": ""
             }
           ]

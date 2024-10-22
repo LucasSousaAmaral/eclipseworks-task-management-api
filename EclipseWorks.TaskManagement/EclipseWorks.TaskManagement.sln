@@ -7,10 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EW.TaskManagement.Presentat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{51F11037-636A-4BE5-8C35-DCC2C60124EC}"
 	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
+		..\.gitignore = ..\.gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EW.TaskManagement.Domain", "EclipseWorks.TaskManagement.Domain\EW.TaskManagement.Domain.csproj", "{AA4B0CC6-1DB7-469B-8A02-B0EA3523AE0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EW.TaskManagement.Domain", "EclipseWorks.TaskManagement.Domain\EW.TaskManagement.Domain.csproj", "{AA4B0CC6-1DB7-469B-8A02-B0EA3523AE0D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{112173B9-907A-4A38-A957-6A8DFDDE90F2}"
 EndProject
@@ -22,11 +22,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{72D7A0EF-90F6-47B3-8C12-7255A79EEA14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EW.TaskManagement.Application", "EW.TaskManagement.Application\EW.TaskManagement.Application.csproj", "{6D8F098A-91CA-4F5F-B5EE-CE7E4149DFBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EW.TaskManagement.Application", "EW.TaskManagement.Application\EW.TaskManagement.Application.csproj", "{6D8F098A-91CA-4F5F-B5EE-CE7E4149DFBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EW.TaskManagement.Infrastructure", "EW.TaskManagement.Infrastructure\EW.TaskManagement.Infrastructure.csproj", "{2FC943CF-130D-4CD0-AE95-C6929A442B2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EW.TaskManagement.Infrastructure", "EW.TaskManagement.Infrastructure\EW.TaskManagement.Infrastructure.csproj", "{2FC943CF-130D-4CD0-AE95-C6929A442B2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EW.TaskManagement.Tests", "EW.TaskManagement.Tests\EW.TaskManagement.Tests.csproj", "{9E8E1D7E-766E-4440-BDDE-65101D5CEB8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EW.TaskManagement.Tests", "EW.TaskManagement.Tests\EW.TaskManagement.Tests.csproj", "{9E8E1D7E-766E-4440-BDDE-65101D5CEB8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

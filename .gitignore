@@ -1,0 +1,116 @@
+# Visual Studio cache files
+.vs/
+
+# Visual Studio temporary files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+
+# NuGet packages
+*.nupkg
+# Uncomment if you have nuget.exe and you don't want to commit it
+# nuget.exe
+
+# NuGet package folders
+packages/
+# Uncomment if necessary
+# !packages/build/
+# !packages/repositories.config
+
+# Include NuGet target files
+!packages/*.targets
+!packages/*.props
+!packages/*.xml
+# Uncomment the next line if you do not want to check in package DLLs
+# !packages/**/*.dll
+
+# Windows Installer files
+*.msi
+*.msm
+*.msp
+
+# Visual Studio Code files
+.vscode/
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Rider files
+.idea/
+
+# Mac OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+*.db
+
+# Entity Framework Migrations
+[Mm]igrations/
+
+# Docker files
+docker-compose*.yaml
+docker-compose*.yml
+Dockerfile*
+
+# Publish files
+.publish/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# StyleCop
+StyleCopCache.cache
+
+# TeamCity
+_TeamCity*
+
+# DotNetLocal
+.dotnetlocal
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# IIS Express settings
+/.vs/config/
+
+# Node.js modules (if applicable)
+node_modules/
+
+# Secrets
+secrets.json

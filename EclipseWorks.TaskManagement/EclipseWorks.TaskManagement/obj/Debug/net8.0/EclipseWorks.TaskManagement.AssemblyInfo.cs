@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EclipseWorks.TaskManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d838807eac05f546f1e7dba46d9eefe8391335f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fff8579e2a5c0dd72740399b8358c229b5ddda16")]
 [assembly: System.Reflection.AssemblyProductAttribute("EclipseWorks.TaskManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EclipseWorks.TaskManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

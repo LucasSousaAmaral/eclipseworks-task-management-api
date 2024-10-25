@@ -181,8 +181,8 @@ Bem-vindo ao **EW Task Management Application**! Este aplicativo é uma soluçã
 ## Melhorias e Próximos Passos
 ### 1. **Implementação de Autenticação e Autorização**
 
-- **Identity Framework:**
-- **JWT Tokens:**
+- **Identity Framework**
+- **JWT Tokens**
 
 ### 2. **Implementação de Padrões de Projeto**
 

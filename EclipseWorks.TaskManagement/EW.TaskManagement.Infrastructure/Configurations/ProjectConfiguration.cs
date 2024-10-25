@@ -17,19 +17,16 @@ public class ProjectConfiguration : IEntityTypeConfiguration<Project>
         builder.Property(p => p.UserId)
                .IsRequired();
 
-        // Relacionamento com User
         builder.HasOne(p => p.User)
                .WithMany(u => u.Projects)
                .HasForeignKey(p => p.UserId)
                .OnDelete(DeleteBehavior.Restrict);
 
-        // Relacionamento com TaskItems
         builder.HasMany(p => p.Tasks)
                .WithOne(t => t.Project)
                .HasForeignKey(t => t.ProjectId)
                .OnDelete(DeleteBehavior.Cascade);
 
-        // Índices
         builder.HasIndex(p => p.UserId);
     }
 }

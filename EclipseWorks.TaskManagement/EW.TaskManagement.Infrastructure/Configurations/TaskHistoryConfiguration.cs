@@ -22,19 +22,16 @@ public class TaskHistoryConfiguration : IEntityTypeConfiguration<TaskHistory>
         builder.Property(h => h.TaskItemId)
                .IsRequired();
 
-        // Relacionamento com TaskItem
         builder.HasOne(h => h.TaskItem)
                .WithMany(t => t.Histories)
                .HasForeignKey(h => h.TaskItemId)
                .OnDelete(DeleteBehavior.Cascade);
 
-        // Relacionamento com User
         builder.HasOne(h => h.ModifiedByUser)
                .WithMany(u => u.TaskHistories)
                .HasForeignKey(h => h.ModifiedByUserId)
                .OnDelete(DeleteBehavior.Restrict);
 
-        // Índices
         builder.HasIndex(h => h.TaskItemId);
         builder.HasIndex(h => h.ModifiedByUserId);
     }

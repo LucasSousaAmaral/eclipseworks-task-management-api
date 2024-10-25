@@ -26,7 +26,7 @@ public class Project
     public void AddTask(TaskItem task)
     {
         if (_tasks.Count >= MaxTasks)
-            throw new InvalidOperationException("O projeto atingiu o número máximo de tarefas.");
+            throw new InvalidOperationException("Número máximo de tarefas atingido.");
 
         _tasks.Add(task);
     }

@@ -102,6 +102,9 @@ public class TaskItem
 
     public void AddComment(string content, int userId)
     {
+        if (string.IsNullOrWhiteSpace(content))
+            throw new ArgumentException("O conteúdo do comentário não pode ser vazio.", nameof(content));
+
         var comment = new Comment(content, userId, this.Id);
         _comments.Add(comment);
 

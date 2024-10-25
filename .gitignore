@@ -1,4 +1,5 @@
 # Visual Studio cache files
+.cache/
 .vs/
 
 # Visual Studio temporary files

@@ -2,11 +2,11 @@
 
 namespace EW.TaskManagement.Presentation.DTOs;
 
-public class CreateTaskItemDTO
+public record CreateTaskItemDTO
 {
-    public string Title { get; set; }
-    public string Description { get; set; }
-    public DateTime DueDate { get; set; }
-    public TaskPriority Priority { get; set; }
-    public int ProjectId { get; set; }
+    public string Title { get; init; }
+    public string Description { get; init; }
+    public DateTime DueDate { get; init; }
+    public TaskPriority Priority { get; init; }
+    public int ProjectId { get; init; }
 }

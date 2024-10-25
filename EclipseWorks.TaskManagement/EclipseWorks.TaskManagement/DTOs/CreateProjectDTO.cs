@@ -1,7 +1,7 @@
 ﻿namespace EW.TaskManagement.Presentation.DTOs;
 
-public class CreateProjectDTO
+public record CreateProjectDTO
 {
-    public string Name { get; set; }
-    public int UserId { get; set; }
+    public string Name { get; init; }
+    public int UserId { get; init; }
 }

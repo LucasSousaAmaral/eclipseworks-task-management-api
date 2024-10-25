@@ -2,13 +2,13 @@
 
 namespace EW.TaskManagement.Presentation.DTOs;
 
-public class TaskItemDTO
+public record TaskItemDTO
 {
-    public int Id { get; set; }
-    public string Title { get; set; }
-    public int ProjectId { get; set; }
-    public TaskPriority Priority { get; set; }
-    public DateTime DueDate { get; set; }
-    public List<CommentDTO> Comments { get; set; }
-    public List<TaskHistoryDTO> Histories { get; set; }
+    public int Id { get; init; }
+    public string Title { get; init; }
+    public int ProjectId { get; init; }
+    public TaskPriority Priority { get; init; }
+    public DateTime DueDate { get; init; }
+    public List<CommentDTO> Comments { get; init; }
+    public List<TaskHistoryDTO> Histories { get; init; }
 }

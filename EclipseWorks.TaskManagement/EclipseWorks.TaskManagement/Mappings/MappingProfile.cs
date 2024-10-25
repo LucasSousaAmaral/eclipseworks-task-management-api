@@ -8,31 +8,31 @@ public class MappingProfile : Profile
 {
     public MappingProfile()
     {
-        // Mapeamento de Project <-> ProjectDTO
+        // Project
         CreateMap<Project, ProjectDTO>();
 
         CreateMap<ProjectDTO, Project>();
 
-        // Mapeamento de TaskItem <-> TaskItemDTO
+        // TaskItem
         CreateMap<TaskItem, TaskItemDTO>()
             .ForMember(dest => dest.Comments, opt => opt.MapFrom(src => src.Comments))
             .ForMember(dest => dest.Histories, opt => opt.MapFrom(src => src.Histories));
 
         CreateMap<TaskItemDTO, TaskItem>();
 
-        // Mapeamento de Comment <-> CommentDTO
+        // Comment
         CreateMap<Comment, CommentDTO>()
             .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.User.Name));
 
         CreateMap<CommentDTO, Comment>();
 
-        // Mapeamento de TaskHistory <-> TaskHistoryDTO
+        // TaskHistory
         CreateMap<TaskHistory, TaskHistoryDTO>()
             .ForMember(dest => dest.ModifiedByUserName, opt => opt.MapFrom(src => src.ModifiedByUser.Name));
 
         CreateMap<TaskHistoryDTO, TaskHistory>();
 
-        // Mapeamento para criação e atualização (Create/Update DTOs)
+        // Create/Update
         CreateMap<CreateProjectDTO, Project>()
             .ConstructUsing(src => new Project(src.Name, src.UserId));
 

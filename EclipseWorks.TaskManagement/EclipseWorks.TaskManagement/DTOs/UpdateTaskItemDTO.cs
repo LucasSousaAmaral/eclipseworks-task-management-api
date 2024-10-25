@@ -2,12 +2,12 @@
 
 namespace EW.TaskManagement.Presentation.DTOs;
 
-public class UpdateTaskItemDTO
+public record UpdateTaskItemDTO
 {
-    public int Id { get; set; }
-    public string Title { get; set; }
-    public string Description { get; set; }
-    public DateTime DueDate { get; set; }
-    public TaskPriority Priority { get; set; }
-    public Domain.Entities.TaskStatus Status { get; set; }
+    public int Id { get; init; }
+    public string Title { get; init; }
+    public string Description { get; init; }
+    public DateTime DueDate { get; init; }
+    public TaskPriority Priority { get; init; }
+    public Domain.Entities.TaskStatus Status { get; init; }
 }

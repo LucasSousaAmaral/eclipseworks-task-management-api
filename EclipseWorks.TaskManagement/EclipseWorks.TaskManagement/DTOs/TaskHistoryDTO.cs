@@ -1,10 +1,10 @@
 ﻿namespace EW.TaskManagement.Presentation.DTOs;
 
-public class TaskHistoryDTO
+public record TaskHistoryDTO
 {
-    public int Id { get; set; }
-    public string Changes { get; set; }
-    public DateTime ModifiedAt { get; set; }
-    public int ModifiedByUserId { get; set; }
-    public string ModifiedByUserName { get; set; }
+    public int Id { get; init; }
+    public string Changes { get; init; }
+    public DateTime ModifiedAt { get; init; }
+    public int ModifiedByUserId { get; init; }
+    public string ModifiedByUserName { get; init; }
 }

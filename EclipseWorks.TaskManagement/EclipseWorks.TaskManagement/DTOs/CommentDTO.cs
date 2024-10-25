@@ -1,10 +1,10 @@
 ﻿namespace EW.TaskManagement.Presentation.DTOs;
 
-public class CommentDTO
+public record CommentDTO
 {
-    public int Id { get; set; }
-    public string Content { get; set; }
-    public DateTime CreatedAt { get; set; }
-    public int UserId { get; set; }
-    public string UserName { get; set; }
+    public int Id { get; init; }
+    public string Content { get; init; }
+    public DateTime CreatedAt { get; init; }
+    public int UserId { get; init; }
+    public string UserName { get; init; }
 }
